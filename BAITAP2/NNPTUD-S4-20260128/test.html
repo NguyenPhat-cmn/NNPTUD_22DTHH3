@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts CRUD</title>
+    <script src="main.js"></script>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>POST LIST</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>TITLE</th>
+                <th>VIEWS</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        <tbody id="body_table"></tbody>
+    </table>
+
+    <h3>Add / Update Post</h3>
+    <div>
+        <input type="text" id="id_txt" placeholder="ID (để trống = auto)" />
+        <input type="text" id="title_txt" placeholder="Title" />
+        <input type="text" id="view_txt" placeholder="Views" />
+        <input type="submit" value="Save" onclick="Save()">
+    </div>
+</body>
+
+</html>

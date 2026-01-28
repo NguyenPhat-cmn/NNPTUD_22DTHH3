@@ -1,0 +1,53 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "posts": [
+    {
+      "id": "1",
+      "title": "2",
+      "views": "3",
+      "isDeleted": false
+    },
+    {
+      "id": "2",
+      "title": "Post 2",
+      "views": 200,
+      "isDeleted": false
+    },
+    {
+      "id": "3",
+      "title": "Post deleted",
+      "views": 150,
+      "isDeleted": true
+    },
+    {
+      "id": "4",
+      "title": "43",
+      "views": "67",
+      "isDeleted": true
+    },
+    {
+      "id": "5",
+      "title": "qư",
+      "views": "qưq",
+      "isDeleted": false
+    },
+    {
+      "id": "6",
+      "title": "qư",
+      "views": "",
+      "isDeleted": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "Comment for post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "Another comment for post 1",
+      "postId": "1"
+    }
+  ]
+}
